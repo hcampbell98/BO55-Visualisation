@@ -81,7 +81,7 @@ def plot_vehicle_makes(df):
     plt.tight_layout()
     
     # Add a sleek footer
-    plt.figtext(0.5, 0.01, "Lisense Analytics - Generated on " + pd.Timestamp.now().strftime("%Y-%m-%d"), 
+    plt.figtext(0.5, 0.01, "Lisense Insights - Generated on " + pd.Timestamp.now().strftime("%Y-%m-%d"), 
                 ha='center', fontsize=8, alpha=0.7, fontfamily='Arial', fontstyle='italic')
     
     # Add lisense.uk data source attribution
@@ -90,11 +90,11 @@ def plot_vehicle_makes(df):
                 color='#fec72f', alpha=0.9, fontfamily='Arial')
     
     # Show and save the plot with high quality
-    plt.savefig('vehicle_makes.png', dpi=300, bbox_inches='tight', transparent=True)
+    plt.savefig('vehicle_makes.png', dpi=300, bbox_inches='tight', transparent=False)
     plt.show()
 
 if __name__ == "__main__":
-    file_path = 'vehicle_BO55.csv'
+    file_path = 'bo55_plates.csv'
     vehicle_data = load_vehicle_data(file_path)
     
     if vehicle_data is not None:

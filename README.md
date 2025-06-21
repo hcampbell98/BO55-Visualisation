@@ -1,6 +1,6 @@
 # Lisense Analysis - BO55 Plates
 
-This Python application analyzes vehicle data from a CSV file and generates visualizations of vehicle makes.
+This Python application analyzes vehicle data from a CSV file and generates visualizations of vehicle makes. The data in the CSV file is sourced directly from the DVSA API.
 
 ## Overview
 
