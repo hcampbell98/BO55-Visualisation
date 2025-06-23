@@ -1,5 +1,7 @@
 # Lisense Analysis - BO55 Plates
 
+![image](https://github.com/hcampbell98/BO55-Visualisation/blob/main/vehicle_makes.png?raw=true)
+
 This Python application analyzes vehicle data from a CSV file and generates visualizations of vehicle makes. The data in the CSV file is sourced directly from the DVSA API.
 
 ## Overview
